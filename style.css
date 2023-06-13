@@ -426,6 +426,11 @@ button {
   border-radius: 4px;
 }
 
+.app-header {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .app-logo {
   max-width: 150px;
   max-height: 30px;
@@ -660,4 +665,88 @@ button {
 .article-button {
   margin: 0 auto;
   padding: 9px 70px;
+}
+
+.product-block{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 188px;
+}
+
+.product-info {
+  max-width: 550px;
+}
+.product-banner {
+  position: relative;
+  background: linear-gradient(210.38deg, #333461 -85.62%, #483D8B 25.45%, #353565 165.27%);
+  width: 446px;
+  height: 581px;
+}
+
+.product-banner-text {
+  z-index: 1;
+  position: absolute;
+  left: 8.58%;
+  right: 42.62%;
+  top: 8.71%;
+  bottom: 49.21%;
+}
+
+.product-banner-pic {
+  position: absolute;
+  left: 23.56%;
+  right: -23.01%;
+  top: 37.43%;
+  bottom: -13.77%;
+}
+
+.green-z{
+  position: absolute;
+  right: -40px;
+  top: -40px;
+}
+
+.green-z-wrapper {
+  font-size: 16px;
+  position: absolute;
+  right: -22px;
+  top: -10px;
+  color: white;
+}
+
+.product-heading {
+  margin-bottom: 22px;
+}
+
+.product-text {
+  margin-bottom: 22px;
+}
+
+.online-block {
+  margin-bottom: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.online-block-info {
+  max-width: 608px;
+}
+
+.online-block-heading {
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.online-block-text {
+  margin-bottom: 40px;
+}
+
+.online-block-button {
+  padding: 9px 93px ;
+}
+
+.online-block-pic {
+  border-radius: 0px 0px 30px 0px;
 }
