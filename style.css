@@ -410,7 +410,7 @@ button {
   color: #041434;
 }
 .background-color{
-  background-color: lightgrey;
+  background-color: rgb(236, 235, 235);
 }
 
 .main-button {
@@ -749,4 +749,77 @@ button {
 
 .online-block-pic {
   border-radius: 0px 0px 30px 0px;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-top-info-text {
+  padding-bottom: 15px;
+}
+
+.footer-top-form {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+}
+
+.footer-top-button {
+  padding: 10px 18px;
+  width: 150px;
+  height: 44px;
+}
+
+.footer-top-input {
+  padding: 10px 14px;
+  width: 280px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  }
+
+.footer-mid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid rgba(16, 24, 40, 0.05);
+}
+
+.footer-mid-pages-block{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-mid-contacts-list{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.footer-mid-logo-block {
+  max-width: 320px;
+}
+
+.footer-mid-logo-text {
+  margin-top: 40px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.socials {
+  display: flex;
+  column-gap: 24px;
 }
