@@ -539,7 +539,7 @@ button {
 
 .feedbacks-block {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 220px;
 }
 
 .feedbacks-list {
@@ -624,4 +624,40 @@ button {
 .simple-rating__label:hover ~ .simple-rating__label, 
 .simple-rating__label:checked ~ .simple-rating__label:hover {
   color: yellow;
+}
+
+.article-block {
+  margin-top: 98px;
+  margin-bottom: 65px;
+}
+
+.article-list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.article-item {
+  max-width: 356px;
+}
+
+.article-text-wrapper {
+  padding: 28px
+}
+
+.article-head {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.article-heading {
+  margin-bottom: 12px;
+}
+
+.article-button {
+  margin: 0 auto;
+  padding: 9px 70px;
 }
